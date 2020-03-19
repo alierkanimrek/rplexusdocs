@@ -5,6 +5,8 @@ permalink: /getting-started/
 ---
 
 ### Overview
+Rplexus is based on a very simple philosophy.
+
 Rplexus is a central server between devices. In Rplexus terminology, each client is called Node and they connect to the server with a client software. So multiple client software can run on one device.
 
 **Node = Client**
