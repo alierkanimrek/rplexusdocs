@@ -11,7 +11,7 @@ Rplexus is a central server between devices. In Rplexus terminology, each client
 
 **Node = Client**
 
-Each Node and its data are defined by the user from the rplexus.net web interface. In Rplexus terminology, each data is called Task and carries data such as <name> = "". You can write the codes that get this data or use the libraries developed by the community.
+Each Node and its data are defined by the user from the rplexus.net web interface. In Rplexus terminology, each data is called Task and carries data such as variable_name = "value". You can write the codes that get this data or use the libraries developed by the community.
 
 **Task = Variable Name**
 
