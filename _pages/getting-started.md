@@ -11,11 +11,11 @@ Rplexus is a central server between devices. In Rplexus terminology, each client
 
 **Node = Client**
 
-Each Node and its data are defined by the user from the rplexus.net web interface. In Rplexus terminology, each data is called Task and carries data such as variable_name = "value". You can write the codes that get this data or use the libraries developed by the community.
+Each Node and its data are defined by the user from the rplexus.net web interface. In Rplexus terminology, each data is called Task and carries data such as variable_name = "value". You can write the codes that get this data from sensors or use the libraries developed by the community.
 
 **Task = Variable Name**
 
-The Rplexus server redirects data from clients to the user's web interface or other shared clients. In this way, shared nodes can establish a network.
+The Rplexus server redirects data from clients to the user's web interface or other shared clients. With shared node tasks you can establish a network.
 
 You can configure this network to set up your smart home system and manage your network from your mobile phone.
 
