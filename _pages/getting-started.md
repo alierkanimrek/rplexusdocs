@@ -17,7 +17,7 @@ Each Node and its data are defined by the user from the rplexus.net web interfac
 
 The Rplexus server redirects data from clients to the user's web interface or other shared clients. With shared node tasks you can establish a network.
 
-You can configure this network to set up your smart home system and manage your network from your mobile phone.
+You can configure this network to set up your smart home system and manage your network from any web browser.
 
 ### Step 1) Sign up rplexus.net
 You can create an account on [https://rplexus.net/user/signup](https://rplexus.net/user/signup){:target="_blank"}
