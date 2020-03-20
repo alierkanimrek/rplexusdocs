@@ -63,6 +63,12 @@ You must specify some configuration variables below.
 #### Getting auth_code
 **Login** your account on rplexus.net then open menu top-right corner and go to **user settings**. You will see **client code sending button**. Information mail will send to your registered e-mail in minutes. **You should check spam folder** in your email account.
 
+Then check your configuration.
+```bash
+python3 client.py
+```
+If you see **Authentication successful** message configuration is OK.
+
 ### Step 5) Create your first View
 
 ### Advanced topics
