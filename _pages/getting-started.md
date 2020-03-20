@@ -82,8 +82,33 @@ cp client.py myclient.py
 Client application is a Python script and it is enough to have a Beginner level knowledge about Python for editing. [This page](https://www.w3schools.com/python/python_syntax.asp){:target="_blank"} helps if new on Python.
 
 ### Methods
-**prepare** : Calls on app starting
-**wheel** : on after authentication succesful for one time
-**ready** : on before awake
-**pre_update** : on before every data send
-**post_update** : on after every data send
+* **prepare** : Calls on app starting
+* **wheel** : on after authentication succesful for one time
+* **ready** : on before awake
+* **pre_update** : on before every data send
+* **post_update** : on after every data send
+
+### Tasks
+Tasks are data variable names. For example, if you have temprature sensor you need as "temp" and "fc" tasks. 
+
+**You must define tasks on rplexus.net before use on client application.** Login on rplexus.net and click your node, you will see tasks link bottom the page. (If you change tasks you must update them in your client)
+
+### Assign Task Data
+Suppose we have two tasks as "rnd1" and "rnd2" your client app looks like;
+
+```python
+    ...
+    
+    def prepare(self):
+        self.my_random_data_1 = self.taskAlias("rnd1")
+        self.my_random_data_2 = self.taskAlias("rnd2")
+        
+    ...
+    
+    async def pre_update(self):
+        self.my_random_data_1.data = random.randrange(10)
+        self.my_random_data_1.data = random.randrange(100)
+    
+    ...
+    
+```
