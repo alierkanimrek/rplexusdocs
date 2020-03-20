@@ -26,7 +26,28 @@ You can create an account on [https://rplexus.net/user/signup](https://rplexus.n
 You will see "Create Node" section when you login, just write your new node name and create one. [https://rplexus.net/user/login](https://rplexus.net/user/login){:target="_blank"}
 
 ### Step 3) Client Installation
-Client application is simple Python script and tested only Linux systems for now. 
+Client application is simple Python script and tested only Linux systems for now. [https://github.com/alierkanimrek/rpct](https://github.com/alierkanimrek/rpct){:target="_blank"}
+
+You have two options for download on command line;
+```bash
+wget https://github.com/alierkanimrek/rpct/archive/master.zip
+unzip master.zip
+```
+or
+```bash
+git clone https://github.com/alierkanimrek/rpct.git
+```
+#### Requirements
+Client application needs **Python version 3** and **Tornado library version 6**. 
+
+You can check Python version.
+```bash
+python3 -V
+```
+Then install Tornado lib.
+```bash
+pip3 install tornado
+```
 
 ### Step 4) Client Configuration
 
