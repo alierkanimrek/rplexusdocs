@@ -108,8 +108,7 @@ Suppose we have two tasks as "rnd1" and "rnd2" your client app looks like;
 ```
 
 # View Your Tasks
-Login to rplexus.net and click plus sign in "Control Pages" section then write view name. You can visualize your data with Widgets. Add a new widget with a plus sign on the View page and see your data. The widget is set as the "Default" Widget by default. Different Widgets offer customized visualization options that developed by the community.
-
+Login to rplexus.net and click plus sign in "Control Pages" section then write view name and create it. You can visualize your data with Widgets. Add a new widget with a plus sign on the View page and see your data. The widget is set as the "Default" widget by default. Different widgets offer customized visualization options that developed by the community.
 
 # Advanced Topics
-You have seen the basics, after which you can set up your own private smart network based according to your skill in obtaining and processing data. The best way to do this is to analyze examples at various levels. You should follow the titles on the homepage.
+You have seen the basics, after which you can set up your own private smart network according to your skill in obtaining and processing data. The best way to do this is to analyze examples at various levels. You should follow the titles on the homepage.
