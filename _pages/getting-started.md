@@ -70,3 +70,14 @@ python3 client.py
 If you see **Authentication successful** message configuration is OK. (Press Ctrl+C for stop client)
 
 Login to rplexus.net now and check if the node appears online.
+
+
+# Customize Your Client
+Frist, clone application. (client.py can be overwritten in the next update.)
+```bash
+cp client.py myclient.py
+```
+
+## Client application structure
+Client application is a Python script and it is enough to have a Beginner level knowledge about Python for editing. [This page](https://www.w3schools.com/python/python_syntax.asp){:target="_blank"} helps if new on Python.
+
