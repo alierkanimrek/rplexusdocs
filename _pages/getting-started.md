@@ -97,18 +97,19 @@ Tasks are data variable names. For example, if you have temprature sensor you ne
 Suppose we have two tasks as "rnd1" and "rnd2" your client app looks like;
 
 ```python
-    ...
-    
     def prepare(self):
         self.my_random_data_1 = self.taskAlias("rnd1")
         self.my_random_data_2 = self.taskAlias("rnd2")
-        
-    ...
-    
+```
+```python
     async def pre_update(self):
         self.my_random_data_1.data = random.randrange(10)
         self.my_random_data_1.data = random.randrange(100)
-    
-    ...
-    
 ```
+
+# View Your Tasks
+Login to rplexus.net and click plus sign in "Control Pages" section then write view name. You can visualize your data with Widgets. Add a new widget with a plus sign on the View page and see your data. The widget is set as the "Default" Widget by default. Different Widgets offer customized visualization options that developed by the community.
+
+
+# Advanced Topics
+You have seen the basics, after which you can set up your own private smart network based according to your skill in obtaining and processing data. The best way to do this is to analyze examples at various levels. You should follow the titles on the homepage.
