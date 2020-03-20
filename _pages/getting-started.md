@@ -109,7 +109,7 @@ Suppose we have two tasks as "rnd1" and "rnd2" your client app looks like;
 
 **Axones**
 
-Some libraries ready to collect data are developed by the community. In Rplexus terminology, this is called **Axone**. They are simple python package and distrubuted with client application. Axones can easily add to your client and ready to use. 
+Some libraries ready to collect data are developed by the community. In Rplexus terminology, this is called **Axone**. They are simple python package and distrubuted with client application. Axones can easily add to your client and ready to use. You can find information in examples about axones.
 
 # View Your Tasks
 Login to rplexus.net and click plus sign in "Control Pages" section then write view name and create it. You can visualize your data with Widgets. Add a new widget with a plus sign on the View page and see your data. The widget is set as the "Default" widget by default. Different widgets offer customized visualization options that developed by the community.
