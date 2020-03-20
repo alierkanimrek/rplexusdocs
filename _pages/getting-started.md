@@ -23,10 +23,10 @@ You can configure this network to set up your smart home system and manage your 
 You can create an account on [https://rplexus.net/user/signup](https://rplexus.net/user/signup){:target="_blank"}
 
 ### Step 2) Create your first Node
-You will see "Create Node" section when you login, just write your new node name and create one.
+You will see "Create Node" section when you login, just write your new node name and create one. [https://rplexus.net/user/login](https://rplexus.net/user/login){:target="_blank"}
 
 ### Step 3) Client Installation
-
+Client application is simple Python script and tested only Linux systems for now. 
 
 ### Step 4) Client Configuration
 
