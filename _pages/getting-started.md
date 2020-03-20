@@ -81,3 +81,9 @@ cp client.py myclient.py
 ## Client application structure
 Client application is a Python script and it is enough to have a Beginner level knowledge about Python for editing. [This page](https://www.w3schools.com/python/python_syntax.asp){:target="_blank"} helps if new on Python.
 
+### Methods
+**prepare** : Calls on app starting
+**wheel** : on after authentication succesful for one time
+**ready** : on before awake
+**pre_update** : on before every data send
+**post_update** : on after every data send
