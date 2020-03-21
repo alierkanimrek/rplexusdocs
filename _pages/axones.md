@@ -10,8 +10,9 @@ OS:`Linux` Requirements:`None`
 System Information
 
 **Parameters**
-|Name|Type|Description
-|---|---|---
+
+|Name|Type|Description|
+|---|---|---|
 |**name**|string
 |**release**|string
 |**version**|string
@@ -25,8 +26,8 @@ System Information
 |**cpu_usage**|string
 
 **Methods**
-Name|Parameters |Return |Description
----|---|---|---
+|Name|Parameters |Return |Description|
+|---|---|---|---|
 **__init__**|()|
 **update**|()|None|Update cpu and ram values.
 
