@@ -6,9 +6,10 @@ permalink: /widgets/
 
 <a name="menu"></a>
  
-[Simple Progress Bar](#Simple_Progress_Bar)
+[Simple Progress Bar](#Simple_Progress_Bar)|
 
 
+<a name="Simple_Progress_Bar"></a>
 ## Simple Progress Bar
 Editable:`No` Autosend:`No` 
 
