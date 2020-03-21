@@ -84,9 +84,10 @@ Client application is a Python script and it is enough to have a Beginner level 
 ### Methods
 * **prepare** : Calls on app starting
 * **wheel** : on after authentication succesful for one time
-* **ready** : on before awake
+* **awake** : on before awake
 * **pre_update** : on before every data send
 * **post_update** : on after every data send
+* **sleep** : on before sleep
 
 ### Tasks
 Tasks are data variable names. For example, if you have temprature sensor you need as "temp" and "fc" tasks. 
@@ -101,6 +102,7 @@ Suppose we have two tasks as "rnd1" and "rnd2" your client app looks like;
         self.my_random_data_1 = self.taskAlias("rnd1")
         self.my_random_data_2 = self.taskAlias("rnd2")
 ```
+
 ```python
     async def pre_update(self):
         self.my_random_data_1.data = random.randrange(10)
