@@ -12,7 +12,7 @@ permalink: /axones/
 
 </div>
 
-<a name="nixsys"></a>
+
 ## NixSys
 OS:`Linux` Requirements:`None` 
 
@@ -43,7 +43,7 @@ System Information
 
 [Menu](#menu)
 
-<a name="nixcat"></a>
+
 ## NixCat
 OS:`Linux` Requirements:`None`
 
