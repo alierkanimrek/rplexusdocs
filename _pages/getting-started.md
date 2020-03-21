@@ -5,9 +5,9 @@ permalink: /getting-started/
 ---
 
 ## Overview
-Rplexus is based on a very simple philosophy. You can create your client easy 4 steps below.
+Rplexus has a very simple philosophy. You can create your client easy 4 steps below.
 
-Rplexus is a central server between devices. In Rplexus terminology, each client is called Node and they connect to the server with a small application. So multiple client software can run on one device.
+Rplexus is a central server between devices. In Rplexus terminology, each client is called Node and a client connects to the server with a small application. Multiple client application can run on one device.
 
 **Node = Client**
 
