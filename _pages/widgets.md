@@ -6,7 +6,7 @@ permalink: /widgets/
 
 <a name="menu"></a>
  
-[Simple Progress Bar](#Simple_Progress_Bar) | [Simple Switch](#Simple_Switch)
+[Simple Progress Bar](#Simple_Progress_Bar) | [Simple Switch](#Simple_Switch) | [Simple Text View](#Simple_Text_View)
 
 
 <a name="Simple_Progress_Bar"></a>
@@ -54,5 +54,30 @@ Provides four simple true/fals switch.
 |---|---|---|
 |**sw1**|string| Switch name for first switch
 |...||
+
+[Menu](#menu)
+
+
+
+<a name="Simple_Text_View"></a>
+## Simple Text View
+Editable:`Yes` Autosend:`No` 
+
+Provides text view.
+
+**Variables**
+
+|Name|Type|Description|
+|---|---|---|
+|**txt**|string| Text content
+|**file**|string| Full filename or title
+|**row**|int| Text row count
+
+**Static Variables**
+
+|Name|Type|Description|
+|---|---|---|
+|**file**|string| Full filename or title
+|**row**|int| Text row count
 
 [Menu](#menu)
