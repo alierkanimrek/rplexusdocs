@@ -10,19 +10,19 @@ OS:`Linux` Requirements:`None`
 System Information
 
 **Parameters**
-Name|Type|Description
----|---|---
-**name**|string
-**release**|string
-**version**|string
-**machine**|string
-**arch**|array
-**cpu_model**|string
-**cpu_processor**|string
-**cpu_mhz**|string
-**mem_total**|string
-**mem_free**|string
-**cpu_usage**|string
+|Name|Type|Description
+|---|---|---
+|**name**|string
+|**release**|string
+|**version**|string
+|**machine**|string
+|**arch**|array
+|**cpu_model**|string
+|**cpu_processor**|string
+|**cpu_mhz**|string
+|**mem_total**|string
+|**mem_free**|string
+|**cpu_usage**|string
 
 **Methods**
 Name|Parameters |Return |Description
