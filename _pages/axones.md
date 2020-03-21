@@ -7,7 +7,8 @@ permalink: /axones/
 <a name="menu"></a>
 <div style="height:100%;">
 
-[NixSys](#nixsys) [NixCat](#nixcat)
+[NixSys](#nixsys) 
+[NixCat](#nixcat)
 
 </div>
 
