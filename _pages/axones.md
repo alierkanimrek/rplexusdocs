@@ -4,8 +4,10 @@ title: Client Axones
 permalink: /axones/
 ---
 
-# NixSys
-Linux System Information
+## NixSys
+OS:`Linux` Requirements:`None` 
+
+System Information
 
 **Parameters**
 * **name**: string
@@ -21,4 +23,23 @@ Linux System Information
 * **cpu_usage**: string
 
 **Methods**
-* **update**: Update cpu and ram values
+* **__init__()**
+* **update()**:
+> Update cpu and ram values.
+
+
+## NixCat
+OS:`Linux` Requirements:`None`
+
+Txt file dump.
+
+* **file**: string
+* **row**: int
+* **raw**: binary
+* **utf8**: string
+* **html**: string
+
+**Methods**
+* **__init__(file:str="", row:int=10)**
+* **update(file:str="", row:int=-1)**
+> Update file content. You can change file and row parameters while updating. These parameters will be permanent.
