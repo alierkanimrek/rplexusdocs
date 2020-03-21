@@ -24,8 +24,7 @@ System Information
 
 **Methods**
 * **__init__()**
-* **update()**:
-> Update cpu and ram values.
+* **update()** Update cpu and ram values.
 
 
 ## NixCat
@@ -33,13 +32,15 @@ OS:`Linux` Requirements:`None`
 
 Txt file dump.
 
-* **file**: string
-* **row**: int
-* **raw**: binary
-* **utf8**: string
-* **html**: string
+**Parameters**
+|Name|Type|Description
+|**file**|string| File name with full path, /var/log/syslog for example.
+|**row**|int| How many lines will be read from the end. Highest value can be slow.
+|**raw**|binary| Content binary format.
+|**utf8**|string| UTF-8 decoded string.
+|**html**|string| Add </br> for every line ends.
 
 **Methods**
-* **__init__(file:str="", row:int=10)**
-* **update(file:str="", row:int=-1)**
-> Update file content. You can change file and row parameters while updating. These parameters will be permanent.
+|Name|Parameters|Return|Description
+|**__init__**|(file:str="", row:int=10)|None|
+|**update**|(file:str="", row:int=-1)|None| Reads file. You can change filename and row parameters while updating. These parameters will be permanent.
