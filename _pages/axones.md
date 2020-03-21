@@ -6,9 +6,12 @@ permalink: /axones/
 
 <a name="menu"></a>
 <div style="height:100%;">
-[NixSys](#nixcat) - [NixCat](#nixcat)
-<div>
 
+[NixSys](#nixsys) - [NixCat](#nixcat)
+
+</div>
+
+<a name="nixsys"></a>
 ## NixSys
 OS:`Linux` Requirements:`None` 
 
