@@ -31,7 +31,7 @@ System Information
 |---|---|---|---|
 |**__init__**|()|
 |**update**|()|None|Update cpu and ram values.
-
+---
 
 ## NixCat
 OS:`Linux` Requirements:`None`
@@ -54,3 +54,4 @@ Txt file dump.
 |---|---|---|---|
 |**__init__**|(file:str="",row:int=10)|None|
 |**update**|(file:str="",row:int=-1)|None| Reads file. You can change filename and row parameters while updating. These parameters will be permanent.
+---
