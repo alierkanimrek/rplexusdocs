@@ -118,3 +118,13 @@ Login to rplexus.net and click plus sign in "Control Pages" section then write v
 
 # Advanced Topics
 You have seen the basics, after which you can set up your own private smart network according to your skill in obtaining and processing data. The best way to do this is to analyze examples at various levels. You should follow the titles on the homepage.
+
+# Request for Invitation
+Rplexus is running on small (cheap) server and needs to testing in real world. What is needed?
+
+* Test client app in various Raspberry Pi sensors.
+* Write axones in Python.
+* Write widgets in Typescript.
+* Share experiences in blogs, write documents etc.
+
+[Request for invitation](https://github.com/alierkanimrek/rplexusdocs/issues/1){:target="_blank"}
