@@ -83,7 +83,7 @@ Client application is a Python script and it is enough to have a Beginner level 
 
 ### Methods
 * **prepare** : Calls on app starting
-* **wheel** : on after authentication succesful for one time
+* **wheel** : Calls periodically after authentication succesful
 * **awake** : on before awake
 * **pre_update** : on before every data send
 * **post_update** : on after every data send
