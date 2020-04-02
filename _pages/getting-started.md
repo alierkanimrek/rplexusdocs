@@ -22,6 +22,8 @@ You can configure this network to set up your smart home system and manage your 
 ## Step 1) Sign up rplexus.net
 You can create an account on [https://rplexus.net/user/signup](https://rplexus.net/user/signup){:target="_blank"}
 
+[Request for Invitation](#Request for Invitation)
+
 ## Step 2) Create your first Node
 You will see "Create Node" section when you login, just write your new node name and create one. [https://rplexus.net/user/login](https://rplexus.net/user/login){:target="_blank"}
 
