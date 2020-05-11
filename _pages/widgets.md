@@ -95,18 +95,18 @@ Provides four slider input bar.
 
 |Name|Type|Description|
 |---|---|---|
-|**sl1val**|int| Slider value for first progress
-|**sl1max**|int| Maximum value for first progress
-|**sl1min**|int| Minimum value for first progress
+|**sl1val**|int| Value for first slider
+|**sl1max**|int| Maximum value for first slider
+|**sl1min**|int| Minimum value for first slider
 |...||
 
 **Static Variables**
 
 |Name|Type|Description|
 |---|---|---|
-|**sl1name**|string| Slider bar name for first progress  
-|**sl1max**|string| Static maximum value for first progress
-|**sl1min**|string| Static minimum value for first progress
+|**sl1name**|string| Bar name for first slider  
+|**sl1max**|string| Static maximum value for first slider
+|**sl1min**|string| Static minimum value for first slider
 |...||
 
 [Menu](#menu)
