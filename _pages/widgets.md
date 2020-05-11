@@ -6,7 +6,7 @@ permalink: /widgets/
 
 <a name="menu"></a>
  
-[Simple Progress Bar](#Simple_Progress_Bar) | [Simple Switch](#Simple_Switch) | [Simple Text View](#Simple_Text_View)
+[Simple Progress Bar](#Simple_Progress_Bar) | [Simple Switch](#Simple_Switch) | [Simple Text View](#Simple_Text_View) | [Simple Slider Bar](#Simple_Slider_Bar)
 
 
 <a name="Simple_Progress_Bar"></a>
@@ -81,3 +81,33 @@ Provides text view.
 |**row**|int| Text row count
 
 [Menu](#menu)
+
+
+
+
+<a name="Simple_Slider_Bar"></a>
+## Simple Slider Bar
+Editable:`Yes` Autosend:`Yes` 
+
+Provides four slider input bar.
+
+**Variables**
+
+|Name|Type|Description|
+|---|---|---|
+|**sl1val**|int| Slider value for first progress
+|**sl1max**|int| Maximum value for first progress
+|**sl1min**|int| Minimum value for first progress
+|...||
+
+**Static Variables**
+
+|Name|Type|Description|
+|---|---|---|
+|**sl1name**|string| Slider bar name for first progress  
+|**sl1max**|string| Static maximum value for first progress
+|**sl1min**|string| Static minimum value for first progress
+|...||
+
+[Menu](#menu)
+
