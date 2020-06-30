@@ -22,8 +22,6 @@ You can configure this network to set up your smart home system and manage your 
 ## Step 1) Sign up rplexus.net
 You can create an account on [https://rplexus.net/user/signup](https://rplexus.net/user/signup){:target="_blank"}
 
-[Request for Invitation](#invitation)
-
 ## Step 2) Create your first Node
 You will see "Create Node" section when you login, just write your new node name and create one. [https://rplexus.net/user/login](https://rplexus.net/user/login){:target="_blank"}
 
@@ -120,14 +118,3 @@ Login to rplexus.net and click plus sign in "Control Pages" section then write v
 
 # Advanced Topics
 You have seen the basics, after which you can set up your own private smart network according to your skill in obtaining and processing data. The best way to do this is to analyze examples at various levels. You should follow the titles on the homepage.
-
-<a name="invitation"></a>
-# Request for Invitation
-Rplexus is running on small (cheap) server and needs to testing in real world. What is needed?
-
-* Test client app in various Raspberry Pi sensors.
-* Write axones in Python.
-* Write widgets in Typescript.
-* Share experiences in blogs, write documents etc.
-
-[Request for invitation](https://github.com/alierkanimrek/rplexusdocs/issues/1){:target="_blank"}
